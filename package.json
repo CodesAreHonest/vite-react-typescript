@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "vite build --watch --config vite.development.config.ts",
-    "build": "tsc && vite build",
+    "build": "vite build --config vite.production.config.ts",
     "serve": "vite preview"
   },
   "dependencies": {
